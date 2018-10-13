@@ -1,5 +1,3 @@
-# indian-currency-to-string-representation
-Conversion of decimal number to string equivalent (Indian Format)
+# number-to-indian-currency
 
-This code is under developement...
-Don't use it until it gets finished....
+Get string representation of indian currency provided as numeric
