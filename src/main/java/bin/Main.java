@@ -3,9 +3,9 @@ package bin;
 import com.aamersohel.git.java.*;
 
 public class Main {
-    public static void main(String... args) {
-        for(int i = 0;i<1000;i++) {
-            System.out.println(IndianCurrency.toString(i));
+    public static void main(String... args) throws CurrencyRangeException {
+        for(long i=-10; i<900; i++) {
+            System.out.println(i + " => " + IndianCurrency.toString(i));
         }
     }
 }
